@@ -1,7 +1,7 @@
 use_frameworks!
 target 'swiftVibrant_Tests' do
-  pod 'swiftVibrant', :path => '../'
+  pod 'swift-vibrant', :path => '../'
 end
 target 'Example' do
-	pod 'swiftVibrant', :path => '../'
+	pod 'swift-vibrant', :path => '../'
 end
