@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'swiftVibrant'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of swiftVibrant.'
+  s.summary          = 'Extract prominent colors from an image.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A swift port of the node-vibrant npm module. Extracts the dominant colors from an image and returns them as an easily digestible palette.
                        DESC
 
-  s.homepage         = 'https://github.com/bd452/swiftVibrant'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/bd452/swift-vibrant'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'bd452' => 'bryce.dougherty@gmail.com' }
-  s.source           = { :git => 'https://github.com/bd452/swiftVibrant.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Bryce Dougherty' => 'bryce.dougherty@gmail.com' }
+  s.source           = { :git => 'https://github.com/bd452/swift-vibrant.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'swiftVibrant/Classes/**/*'
+  s.source_files = 'swiftVibrant/**/*'
+  
+  s.swift_version = '5'
   
   # s.resource_bundles = {
   #   'swiftVibrant' => ['swiftVibrant/Assets/*.png']
