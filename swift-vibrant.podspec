@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'swift-vibrant'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Extract prominent colors from an image.'
 
 # This description is used to generate tags and improve search results.
