@@ -1,0 +1,6 @@
+use_frameworks!
+target 'swiftVibrant_Tests' do
+  pod 'swiftVibrant', :path => '../'
+  
+  
+end
