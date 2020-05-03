@@ -1,4 +1,4 @@
-# swiftVibrant
+# swift-vibrant
 
 [![CI Status](https://img.shields.io/travis/bd452/swiftVibrant.svg?style=flat)](https://travis-ci.org/bd452/swiftVibrant)
 [![Version](https://img.shields.io/cocoapods/v/swiftVibrant.svg?style=flat)](https://cocoapods.org/pods/swiftVibrant)
@@ -8,7 +8,7 @@
 
 ## Installation
 
-swiftVibrant is available through [CocoaPods](https://cocoapods.org). To install
+swift-vibrant is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
