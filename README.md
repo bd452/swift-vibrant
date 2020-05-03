@@ -17,7 +17,7 @@ pod 'swiftVibrant'
 
 ## Usage
 ```swift
-import nodeVibrant
+import swiftVibrant
 
 let image = UIImage(named: "name_of_image")
 
@@ -40,7 +40,7 @@ v.getPalette({ palette in
 ## References
 
 ### `Vibrant`
-Main class of `node-vibrant`.
+Main class of `swift-vibrant`.
 
 #### `Vibrant.from(src: UIImage): Builder`
 Make a `Builder` for an image. Returns a `Builder` instance.
