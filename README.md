@@ -1,9 +1,9 @@
 # swift-vibrant
 
-[![CI Status](https://img.shields.io/travis/bd452/swiftVibrant.svg?style=flat)](https://travis-ci.org/bd452/swiftVibrant)
-[![Version](https://img.shields.io/cocoapods/v/swiftVibrant.svg?style=flat)](https://cocoapods.org/pods/swiftVibrant)
-[![License](https://img.shields.io/cocoapods/l/swiftVibrant.svg?style=flat)](https://cocoapods.org/pods/swiftVibrant)
-[![Platform](https://img.shields.io/cocoapods/p/swiftVibrant.svg?style=flat)](https://cocoapods.org/pods/swiftVibrant)
+[![CI Status](https://img.shields.io/travis/bd452/swiftVibrant.svg?style=flat)](https://travis-ci.org/bd452/swift-vibrant)
+[![Version](https://img.shields.io/cocoapods/v/swiftVibrant.svg?style=flat)](https://cocoapods.org/pods/swift-vibrant)
+[![License](https://img.shields.io/cocoapods/l/swiftVibrant.svg?style=flat)](https://cocoapods.org/pods/swift-vibrant)
+[![Platform](https://img.shields.io/cocoapods/p/swiftVibrant.svg?style=flat)](https://cocoapods.org/pods/swift-vibrant)
 
 
 ## Installation
@@ -117,9 +117,6 @@ Vibrant.from(src)
   .getPalette()
 ```
 
-#### `constructor(src: UIImage, opts: Vibrant.Options)`
-Arguments are the same as `Vibrant.constructor`.
-
 #### `quality(q: Int): Builder`
 Sets `opts.quality` to `q`. Returns this `Builder` instance.
 
@@ -228,10 +225,10 @@ Computes CIE delta E 1994 diff between `lab1` and `lab2`. The 2 colors are in CI
 #### `rgbDiff(rgb1: RGB, rgb2: RGB): Double`
 Compute CIE delta E 1994 diff between `rgb1` and `rgb2`.
 
-#### `hexDiff(hex1: string, hex2: string): Double`
+#### `hexDiff(hex1: String, hex2: String): Double`
 Compute CIE delta E 1994 diff between `hex1` and `hex2`.
 
-#### `getColorDiffStatus(d: number): string`
+#### `getColorDiffStatus(d: Double): String`
 Gets a string to describe the meaning of the color diff. Used in tests.
 
 Delta E  | Perception                             | Returns
