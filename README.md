@@ -1,10 +1,5 @@
 # swift-vibrant
 
-[![Version](https://img.shields.io/cocoapods/v/swiftVibrant.svg?style=flat)](https://cocoapods.org/pods/swift-vibrant)
-[![License](https://img.shields.io/cocoapods/l/swiftVibrant.svg?style=flat)](https://cocoapods.org/pods/swift-vibrant)
-[![Platform](https://img.shields.io/cocoapods/p/swiftVibrant.svg?style=flat)](https://cocoapods.org/pods/swift-vibrant)
-
-
 ## Installation
 
 swift-vibrant is available through [CocoaPods](https://cocoapods.org). To install
