@@ -6,7 +6,7 @@ Other color palette generators will only give you a list of the dominant colors 
 
 Now I know what you're thinking: "But Bryce, that's what I want! That's why I'm on your repository in the first place!"
 
-Well I've got news for you: swift-vibrant will not only give you the dominant colors in an image, oh no. It will *also* give you a fully featured *palette*. What's the difference you might ask?
+Well I've got news for you: swift-vibrant (or [node-vibrant](https://github.com/Vibrant-Colors/node-vibrant/), if you use JavaScript. No affiliation but that's what this project is based off of) will not only give you the dominant colors in an image, oh no. It will *also* give you a fully featured *palette*. What's the difference you might ask?
 
 It provides:
  * A Vibrant Color (Duh)
