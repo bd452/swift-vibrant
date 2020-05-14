@@ -1,5 +1,25 @@
 # swift-vibrant
 
+Generate a color palette from a UIImage. 
+
+Other color palette generators will only give you a list of the dominant colors in an image. 
+
+Now I know what you're thinking: "But Bryce, that's what I want! That's why I'm on your repository in the first place!"
+
+Well I've got news for you: swift-vibrant will not only give you the dominant colors in an image, oh no. It will *also* give you a fully featured *palette*. What's the difference you might ask?
+
+It provides:
+ * A Vibrant Color (Duh)
+ * A Muted Color
+ * A Dark Vibrant Color
+ * A Dark Muted Color
+ * A Light Vibrant Color
+ * A Light Muted Color
+
+As well as 2 different text colors for each of the above that look good on the color they're designed for.
+ 
+Don't believe me? There's a 100% money back guarantee! (Just kidding, it's MIT licensed aka free for your use).
+
 ## Installation
 
 swift-vibrant is available through [CocoaPods](https://cocoapods.org). To install
