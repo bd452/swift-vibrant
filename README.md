@@ -2,9 +2,9 @@
 
 Generate a color palette from a UIImage. 
 
-Other color palette generators will only give you a list of the dominant colors in an image. 
+Other color palette generators will only give you a list of the dominant colors in an image. Vibrant does much more. 
 
-Now I know what you're thinking: "But Bryce, that's what I want! That's why I'm on your repository in the first place!"
+Now I know what you're thinking: "But Bryce, colors from an image! That's what I want! That's why I'm on your repository in the first place!"
 
 Well I've got news for you: swift-vibrant (or [node-vibrant](https://github.com/Vibrant-Colors/node-vibrant/), if you use JavaScript. No affiliation but that's what this project is based off of) will not only give you the dominant colors in an image, oh no. It will *also* give you a fully featured *palette*. What's the difference you might ask?
 
